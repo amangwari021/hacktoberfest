@@ -4,9 +4,12 @@
 int main()
 {
 printf ("hello world\n");
-int i, age;
-for(i=0; i<10; i++){
+long long i, age;
+i=0;
+while(i<10){
     printf("%d\n Enter your age\n",i);
+    i++;
+}
 scanf("%d",&age);
 //if (age>10)
 
