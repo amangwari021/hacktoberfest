@@ -1,5 +1,26 @@
 #include <stdio.h>
+#include<isotream.h>
 #define PI 3.14
+
+using namespace sdt
+
+int find_line() {
+  for(int i = 0; i < 3; ++i) {
+    for(int j = i+1; j < 3; ++j) {
+      line l(p[i], p[j]);
+
+      int cnt = 0;
+      for(int t = 0; t < n; ++t)
+        if (l.is_on(p[t])) ++cnt;
+
+      if (cnt == n-1) 
+        return l;      
+    }
+  }
+    return 1;
+}
+    
+
 int main()
 {
     int a= 8;
