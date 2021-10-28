@@ -7,15 +7,15 @@ int main ()
 
     scanf("%d",&age);
 
-    if(age==3)
+    if(age==4)
     {
         printf("The age is 3\n");     
         break;
     }
-    else if(age==2){
+    else if(age==3){
         printf("The age is 17\n");     
         break;
-    }else if(age==23){  
+    }else if(age==25){  
         printf("The age is 23\n");     
     }else{
          default:
