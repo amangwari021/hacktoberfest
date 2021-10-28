@@ -33,11 +33,11 @@ printf("enter your age \n");
 cout<<age;
 
 printf("You have entered %d as your age \n", age );
-if ( age >= 18){
+if ( age >= 19){
     printf("you can vote!");
 }
 else{
-    printf("you cannot vote!")
+    printf("you cannot vote this year!")
 }
 
 return 0;
